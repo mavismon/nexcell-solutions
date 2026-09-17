@@ -38,3 +38,11 @@ Vercel project Root Directory is `site/` (framework "Other", no build step). `si
 ## Making the agent live
 
 In `agent.js`, replace `route()` with a `fetch` to a serverless function (e.g. `api/chat.js` on Vercel). That function should call Claude with the `SERVICES`/`INTENTS` content as its system prompt. Keep the API key on the server.
+
+## Logo files
+
+`brand/` has the logo as SVG and 4x PNG:
+
+- `nexcell-logo-on-light-bg` / `nexcell-logo-on-dark-bg`: full logo on paper (`#FAF7F5`) and navy-deep (`#05070C`) backgrounds
+- `nexcell-logo-light` / `nexcell-logo-dark`: transparent background, for light and dark backgrounds
+- `nexcell-mark`: logo mark on its own
