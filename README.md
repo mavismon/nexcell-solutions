@@ -12,7 +12,7 @@ Then open http://localhost:4321.
 
 ## Deploy
 
-Vercel project root directory: `site/` (no framework preset, no build command). `vercel.json` turns on clean URLs (`/services` instead of `/services.html`).
+Vercel serves the `site/` folder as configured in the root `vercel.json` (no build step). `vercel.json` turns on clean URLs (`/services` instead of `/services.html`).
 
 ## Structure
 
